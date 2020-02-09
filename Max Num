@@ -1,0 +1,20 @@
+# course: CodeAcademy
+# laboratory: Code Challenge - Loops
+# date: 02/09/20
+# username: creesman  
+# description: a script that takes a list of numbers and returns the largest number
+
+##############################################################
+# max_num(nums)
+# This function takes in a list of numbers named nums as a #parameter. The function then returns the largest number in #nums.
+# inputs: a list of numbers named nums as a parameter
+# returns: the largest number in nums
+def max_num(nums):
+  maximum = 0
+  for i in nums:
+    if i > maximum:
+      maximum = i
+  return maximum
+
+#Uncomment the line below when your function is done
+print(max_num([50, -10, 0, 75, 20]))
