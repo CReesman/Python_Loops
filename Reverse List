@@ -1,0 +1,22 @@
+# course: CodeAcademy
+# laboratory: Code Challenge - Loops
+# Script: Reverse List
+# date: 02/09/20
+# username: creesman  
+# description: a script that takes two lists of the same size as parameters named lst1 and lst2. The function should return true if lst1 is the same as lst2 reversed. The function should return False otherwise.
+
+##############################################################
+# reversed_list(lst1, lst2)
+# This function takes in two lists and will return True if lst1 is the same as lst2 reversed. the function will return False otherwise.
+# inputs: two lists of numbers of equal size as parameters
+# returns: a True or False value
+def reversed_list(lst1, lst2):
+  lst2.reverse()
+  if lst1 == lst2:
+    return True
+  else:
+    return False
+
+#Uncomment the lines below when your function is done
+print(reversed_list([1, 2, 3], [3, 2, 1]))
+print(reversed_list([1, 5, 3], [3, 2, 1]))
